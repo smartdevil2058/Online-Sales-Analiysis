@@ -1,0 +1,98 @@
+--Data Quality Check
+
+The dataset contains no null values.
+
+All columns have consistent data types.
+
+--Transaction Analysis by Region & Payment Method
+
+North America
+
+80 Credit Card transactions
+
+0 Debit Card
+
+0 PayPal
+
+Asia
+
+40 Credit Card
+
+40 Debit Card
+
+0 PayPal
+
+Europe
+
+80 PayPal
+
+0 Credit Card
+
+0 Debit Card
+
+-- High-Value Transactions
+-Highest Priced Product
+Canon EOS R5 Camera
+Unit Price: $3899.99
+Region: North America
+
+- Highest Units Sold in a Single Transaction
+Hanes ComfortSoft T-Shirt
+Units Sold: 10
+Region: Asia
+
+-- Price & Category Insights
+
+Average Unit Price: 236.39
+
+Each category has 40 products in the dataset.
+
+-- Revenue by Region
+Region	Total Revenue
+North America	36,844.34
+Asia	22,455.45
+Europe	21,268.06
+
+North America generates the highest revenue.
+
+-- Revenue by Product Category & Region
+
+(Top category-region pairs)
+
+Electronics — North America: 34,982.41
+
+Home Appliances — Europe: 18,646.16
+
+Sports — Asia: 14,326.52
+
+Clothing — Asia: 8,128.93
+
+Beauty Products — Europe: 2,621.90
+
+Books — North America: 1,861.93
+
+-- Profitability Insights
+
+Most profitable product: Fitbit Versa 3
+
+Most loss-making product: Titleist Pro V1 Golf Balls
+
+Most profitable category overall: Clothing
+
+-- Monthly Revenue Trend
+
+Highest-Revenue Month: January
+
+Lowest-Revenue Month: July
+
+-- Overall Summary
+
+North America leads in revenue and premium products.
+
+Asia shows strong sales volume (high units sold).
+
+Electronics and Home Appliances dominate revenue.
+
+Clothing is the most profitable category.
+
+Seasonality exists: revenue peaks in January and drops in July.
